@@ -1,0 +1,38 @@
+<head>
+    <meta name="viewport" content="initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="resources/js/wikipedia-viewer.js"></script>
+</head>
+
+<body>
+    <div class = "container-fluid">
+        <header class = "page-header text-center">
+            <h1>Wikipedia Viewer</h1>
+        </header>
+        <div class = "container text-center main-content">
+            <row>
+                <div class="col-md-12">
+                    <a href = "http://en.wikipedia.org/wiki/Special:Random">Random Wikipedia Page</a>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-6 col-md-offset-3">
+                    <form action = "" class = "form-inline">
+                        <div class="form-group">
+                            <input type = "text" class = "form-control search-bar" placeholder = "Search Wikipedia">
+                        </div>
+                        <button type = "submit" class = "btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-12">
+                    <p class="results"></p>
+                </div>
+            </row>
+        </div>
+    </div>
+</body>
