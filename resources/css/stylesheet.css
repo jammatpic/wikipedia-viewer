@@ -4,7 +4,7 @@ form {
 body {
     font-family: "Merriweather", serif;
 }
-h1 {
+.bold, .searchmatch {
     font-weight:700;
 }
 .main-content {
@@ -14,4 +14,10 @@ h1 {
     background:#f6f6f6;
     padding: 20px 0px 20px 0px;
     margin: 0 -15px 0px -15px;
+}
+.description {
+    padding-bottom:20px;
+}
+.title {
+    margin:5px 0px;
 }
